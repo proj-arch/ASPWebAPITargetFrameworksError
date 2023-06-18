@@ -1,4 +1,4 @@
-# DotnetPublishErrorDemo
+# ASPWebAPITargetFrameworksError
 Demonstrates the error that occurs when using the package 'Swashbuckle.AspNetCore' in combination with the tag TargetFrameworks (plural) in the project file.
 
 Issue https://github.com/dotnet/aspnetcore/issues/40577
