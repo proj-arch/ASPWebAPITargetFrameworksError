@@ -3,7 +3,10 @@ Demonstrates the error that occurs when using the package 'Swashbuckle.AspNetCor
 
 Issue https://github.com/dotnet/aspnetcore/issues/40577
 
+**2023-06-23: I can confirm that this is fixed when updating the NuGet package Swashbuckle.AspNetCore to a newer version. I tested it with version 6.5.0.**
+
 ### Remarks
+- The demo was created with Visual Studio 2022 (17.1.0) and .Net 6 using Version 6.2.3 or NuGet package Swashbuckle.AspNetCore
 - Typically you would use TargetFrameworks (plural) when you want to target multiple frameworks. But sind the error also occurs with one target framework, this project states net6.0 only for simplicity reasons.
 In reality the reason for using the plural TargetFrameworks tag is because I want to target multiple frameworks.
 - The project works fine as long as I stick to tag TargetFramework (singular).
